@@ -13,7 +13,7 @@
 
 
   // the outer part of the compass that rotates
-  var rose = document.getElementById("rose");
+  var rose = document.getElementById("roata");
 
 
   // elements that ouput our position
@@ -92,18 +92,7 @@
   }
 
 
-  // browser agnostic orientation unlock
-  function browserUnlockOrientation() {
-    if (screen.orientation && screen.orientation.unlock) {
-      screen.orientation.unlock();
-    } else if (screen.unlockOrientation) {
-      screen.unlockOrientation();
-    } else if (screen.mozUnlockOrientation) {
-      screen.mozUnlockOrientation();
-    } else if (screen.msUnlockOrientation) {
-      screen.msUnlockOrientation();
-    }
-  }
+
 
 
   // browser agnostic document.fullscreenElement

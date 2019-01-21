@@ -101,7 +101,7 @@ header {
   text-align: center;
 }
 
-  .compass__rose {
+  .compass__roata {
     position: absolute;
     top: 0;
     left: 0;
@@ -109,12 +109,12 @@ header {
     bottom: 0;
   }
 
-    .compass__rose__dial {
+    .compass__roata_digital {
       height: 100%;
       width: 100%;
     }
 
-  .compass__pointer {
+  .compass__pot {
     height: 100%;
     width: 100%;
   }
